@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -14,10 +14,17 @@ function App() {
         <Router>
           <Header/>
           <Routes>
-            <Route path='/about-me' index element={<AboutMe/>} />
+            <Route path='/' element={ <Navigate to='/about-me' />} />
+            <Route path='/about-me' element={<AboutMe/>} />
             <Route path='/portfolio' element={<Portfolio/>} />
             <Route path='/contact' element={<Contact/>} />
             <Route path='/resume' element={<Resume/>} />
+            <Route path='*' element={
+              <div>
+                <h2>404 Page not found</h2>
+              </div>
+              }
+            />
           </Routes>
           <Footer/>
         </Router>
