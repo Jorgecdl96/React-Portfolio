@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.e4df8b9a.css",
+    "main.js": "/React-Portfolio/static/js/main.1c64521e.js",
+    "static/media/Horiseon.png": "/React-Portfolio/static/media/Horiseon.b15eb3fb92d341d7891b.png",
+    "static/media/05-third-party-apis-homework-demo.gif": "/React-Portfolio/static/media/05-third-party-apis-homework-demo.5b3f62cdcc4cafa34102.gif",
+    "static/media/pinIt.png": "/React-Portfolio/static/media/pinIt.cb0795bbae3733863a31.png",
+    "static/media/Weather dashboard.png": "/React-Portfolio/static/media/Weather dashboard.8cba21e144f5ca9861d8.png",
+    "static/media/avatar.png": "/React-Portfolio/static/media/avatar.5139163b442bf07818a2.png",
+    "static/media/Wolfinance.png": "/React-Portfolio/static/media/Wolfinance.d0d76e15eb64335bcbed.png",
+    "static/media/passwordGen.png": "/React-Portfolio/static/media/passwordGen.aa25cbf89939def02f6b.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.e4df8b9a.css.map": "/React-Portfolio/static/css/main.e4df8b9a.css.map",
+    "main.1c64521e.js.map": "/React-Portfolio/static/js/main.1c64521e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4df8b9a.css",
+    "static/js/main.1c64521e.js"
+  ]
+}
