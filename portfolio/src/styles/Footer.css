@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    background-color: var(--bluedark);
+    color: white;
+    justify-content: center;
+}
+
+.footerIcons * {
+    font-size: 3rem;
+    margin: 1rem;
+    color: white;
+}
+
