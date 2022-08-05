@@ -1,0 +1,28 @@
+.contact {
+    text-align: start;
+    width: 70vw;
+    margin: auto;
+}
+
+input {
+    width: 15rem;
+}
+
+.textarea {
+    width: 22rem;
+    height: 12rem;
+}
+
+.open {
+    display: block;
+    font-style: italic;
+    margin: 1rem;
+}
+
+.close {
+    display: none;
+}
+
+.submit {
+    margin-bottom: 1rem;
+}
