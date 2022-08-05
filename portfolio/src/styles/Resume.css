@@ -1,0 +1,13 @@
+.resume {
+    text-align: start;
+    width: 70vw;
+    margin: auto;
+}
+ul * {
+    margin-bottom: 0.5rem;
+}
+
+.download {
+    font-style: italic;
+    color: var(--bluelight);
+}
