@@ -1,0 +1,26 @@
+
+.navbar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.links * {
+    color: var(--bluelight);
+    text-decoration: none;
+    border-bottom: 2px solid var(--bluelight);
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.toggleButton{
+    display: none;
+}
+
+#selected {
+    color: rgb(238, 239, 241);
+    border-bottom: 2px solid rgb(238, 239, 241);
+}
+
