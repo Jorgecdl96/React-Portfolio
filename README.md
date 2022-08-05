@@ -1,4 +1,4 @@
-# Cardenas Portfolio
+# REACT Cardenas Portfolio
 
 ## Description
 
@@ -22,8 +22,7 @@ The website was design with help of media queries to be able to adapt to any scr
 
 The image below show how the website it´s deployed.
 
-![Cardenas-Portfolio](./Assets/portfolioDeployed.png)
+![Cardenas-Portfolio]()
 
 ## Link to deploy application
 
-https://jorgecdl96.github.io/Cardenas-Portfolio/
