@@ -1,0 +1,16 @@
+:root{
+    --bluedark: rgb(36, 36, 46);
+    --bluelight: rgb(112, 211, 198);
+    --grey:rgb(222, 245, 245);
+    --bluegrey: rgba(30, 30, 82, 0.842);
+   
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.App{
+    text-align: center;
+}
