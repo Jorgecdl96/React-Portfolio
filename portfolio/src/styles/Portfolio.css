@@ -35,8 +35,8 @@
     text-align: start;
     display: none;
 }
-
-.card:hover *{
+/* show card-text div once the cursor is over card section */
+.card:hover .card-text{
     display: block;
 }
 
