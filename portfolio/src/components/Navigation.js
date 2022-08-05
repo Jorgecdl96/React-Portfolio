@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import { AiOutlineMenu } from 'react-icons/ai';
+import { IoReorderFourSharp } from 'react-icons/io5';
 import '../styles/Navigation.css'
 
 
 function Navigation() {
     const [expandButton, setExpandButton] = useState(false);
-    const [aboutMe, setAboutMe] = useState(false);
+    const [aboutMe, setAboutMe] = useState(true);
     const [portfolio, setPortfolio] = useState(false);
     const [contact, setContact] = useState(false);
     const [resume, setResume] = useState(false);
@@ -18,7 +18,7 @@ function Navigation() {
     //     setExpandButton(false);
 
         
-    // }, []);
+    // }, [location]); 
     
 
     const selectFunc = (e) => {
@@ -60,7 +60,7 @@ function Navigation() {
         <div className='navbar'>
             <div className='toggleButton' id={expandButton ? 'open' : 'close'}>
                 <button onClick={() => {setExpandButton((expand) => !expand)}}>
-                <AiOutlineMenu/>
+                <IoReorderFourSharp/>
                 </button>
             </div>
             <div className='links'>

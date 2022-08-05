@@ -19,8 +19,30 @@
     display: none;
 }
 
+.toggleButton svg {
+    font-size: 50px;
+}
+
+.toggleButton button {
+    background-color: transparent;
+    color: var(--bluelight);
+    border: none;
+}
+
 #selected {
     color: rgb(238, 239, 241);
     border-bottom: 2px solid rgb(238, 239, 241);
 }
 
+
+@media screen and (max-width: 850px) {
+    .links{
+        display: none;
+    }
+    
+    .toggleButton{
+        display: block;
+        
+    }
+
+}
