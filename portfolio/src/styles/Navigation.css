@@ -27,6 +27,7 @@
     background-color: transparent;
     color: var(--bluelight);
     border: none;
+    cursor: pointer;
 }
 
 #selected {
@@ -36,6 +37,7 @@
 
 
 @media screen and (max-width: 850px) {
+    
     .links{
         display: none;
     }
@@ -43,6 +45,16 @@
     .toggleButton{
         display: block;
         
+    }
+
+    #open .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        background-color: var(--bluedark);
+        z-index: 1;
     }
 
 }

@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import React, {useState, useEffect} from 'react';
+import {Link, useLocation} from 'react-router-dom';
 import { IoReorderFourSharp } from 'react-icons/io5';
 import '../styles/Navigation.css'
 
@@ -12,13 +12,13 @@ function Navigation() {
     const [resume, setResume] = useState(false);
 
 
-    // const location = useLocation();
+    const location = useLocation();
 
-    // useEffect(() => {
-    //     setExpandButton(false);
+    useEffect(() => {
+        setExpandButton(false);
 
         
-    // }, [location]); 
+    }, [location]); 
     
 
     const selectFunc = (e) => {
@@ -57,17 +57,18 @@ function Navigation() {
     };
 
     return (
-        <div className='navbar'>
-            <div className='toggleButton' id={expandButton ? 'open' : 'close'}>
-                <button onClick={() => {setExpandButton((expand) => !expand)}}>
-                <IoReorderFourSharp/>
-                </button>
-            </div>
+        <div className='navbar' id={expandButton ? 'open' : 'close'}>
+            
             <div className='links'>
                 <Link to='/about-me' onClick={selectFunc} name='aboutme' id={aboutMe ? 'selected' : 'noselected'}>About Me</Link>
                 <Link to='/portfolio' onClick={selectFunc} name='portfolio' id={portfolio ? 'selected' : 'noselected'}>Portfolio</Link>
                 <Link to='/contact' onClick={selectFunc} name='contact' id={contact ? 'selected' : 'noselected'}>Contact</Link>
                 <Link to='/resume' onClick={selectFunc} name='resume' id={resume ? 'selected' : 'noselected'}>Resume</Link>
+            </div>
+            <div className='toggleButton' >
+                <button onClick={() => {setExpandButton((expand) => !expand)}}>
+                <IoReorderFourSharp/>
+                </button>
             </div>
         </div>
     )
